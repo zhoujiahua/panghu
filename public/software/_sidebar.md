@@ -1,0 +1,22 @@
+- 软件
+  - [youtube-dl youtube 下载神器](youtubedl.md)
+  - [Free Download Manager 万能下载](freedownload.md)
+  - [KinhDOwn BD 网盘加速器](kinhdown.md)
+  - [VLC 视频播放器](vlcmedia.md)
+  - [图压 图片压缩](tuya.md)
+  - [ImageGlass 看图软件](imageglass.md)
+  - [LightShot 截图软件](lightshot.md)
+
+- 网站
+  - [在线抠图去背景](removebg.md)
+  - [在线压缩图片](squoosh.md)
+  - [在线旧照片上色](colorize.md)
+  - [在线流程图](code2flow.md)
+  - [在线思维导图](mindmaps.md)
+  - [在线数据结构可视化](algorithms.md)
+  - [coder to hacker](hacker.md)
+  - [The True Size](truesize.md)
+  - [Github Shields](shields.md)
+
+- 图书
+  - [欧姆社学习漫画全册](oumu.md)
