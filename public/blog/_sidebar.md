@@ -10,7 +10,7 @@
   - [CSS](gitscm.md)
   - [Javascript](gitscm.md)
   - [Nodejs](gitscm.md)
-  - [React](gitscm.md)
+  - [React](react.md)
   - [PS](gitscm.md)
   - [Chrome](gitscm.md)
 
