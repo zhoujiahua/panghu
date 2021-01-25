@@ -1,34 +1,34 @@
 - 工具
 
-  - [VS Studio](quickstart.md)
-  - [VS Code](gitscm.md)
+  - [VS Studio](vsstudio.md)
+  - [VS Code](vscode.md)
   - [Git](gitscm.md)
 
 - 前端
 
-  - [HTML](quickstart.md)
-  - [CSS](gitscm.md)
-  - [Javascript](gitscm.md)
-  - [Nodejs](gitscm.md)
+  - [HTML](html.md)
+  - [CSS](css.md)
+  - [Javascript](javascript.md)
+  - [Nodejs](node.md)
   - [React](react.md)
-  - [PS](gitscm.md)
-  - [Chrome](gitscm.md)
+  - [PS](ps.md)
+  - [Chrome](chrome.md)
 
 - 服务端（.NET/C#）
 
-  - [C#基础](quickstart.md)
-  - [C#高级](quickstart.md)
-  - [OOP](gitscm.md)
-  - [ASP.NET MVC](gitscm.md)
-  - [IIS](gitscm.md)
-  - [Nginx](gitscm.md)
+  - [C#基础](c1.md)
+  - [C#高级](c2.md)
+  - [OOP](oop.md)
+  - [ASP.NET MVC](asp.net.mvc.md)
+  - [IIS](iis.md)
+  - [Nginx](nginx.md)
 
 - 测试运维
 
-  - [单元测试](gitscm.md)
-  - [自动化测试 Selenium](quickstart.md)
-  - [接口自动化测试](gitscm.md)
-  - [PowerShell](gitscm.md)
+  - [单元测试](ut.md)
+  - [自动化测试 Selenium](apt.md)
+  - [接口自动化测试](api.md)
+  - [PowerShell](powershell.md)
 
 - 架构模式
 
