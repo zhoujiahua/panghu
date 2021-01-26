@@ -190,3 +190,79 @@ Hotel customer: Great! I’m on a business trip, so an office is important to me
 　　④ 询问能帮什么忙除了How can I help you，还可以说(How) may I help you, 或者文中的直接how can I help，但老师教的can I help you几乎不用。
 　　⑤ attached表示“附加，连着，附送，附有”，如attached file附加文件，attached list附表，在邮件中就表示“附件”或者“附上XXX”，如you can find our company profile in the attachment或attached our our company profile(附件里是公司概况/介绍);而比较正式，从法律的角度或口吻则用 enclose herewith XXX
 ```
+## Back in the Black - (公司经营状况不佳，然后慢慢恢复盈利)
+
+```
+Kevin：I think the company has finally made a profit.
+我觉得公司已经恢复盈利了。
+
+Jordan: That’s great news!
+这真是个好消息！
+
+Kevin：We’re all getting raises and bonuses this year.
+今年公司能给我们加薪了，而且我们还能得到奖金。
+
+Jordan: That makes me very happy.
+听到这个消息，我好开心啊。
+
+Kevin：Me too. We haven’t had raises in four years.
+我也是。公司四年来都没有给我们加过薪了。
+
+Jordan: We’ve never had bonuses.
+也从来没有奖金。
+
+Kevin：That’s right!
+是啊！
+
+Jordan: If the company is doing well financially, we should definitely receive some benefits.
+如果公司财务状况良好的话，我们一定能从中受益的。
+
+Kevin：I agree. We work really hard.
+同意。我们工作真的很努力。
+
+Jordan: Let’s celebrate over drinks after work.
+让我们下班后去喝酒庆祝吧。
+
+笔记：
+    ① back in the black：利润得到回升，恢复盈利
+    ② make a profit：获利，创利，赚钱
+    ③ get raise：（员工得到）加薪，涨工资；而give a raise（公司给员工）加薪；同近义词：pay increase，salary raise/raise in salary，wage hike……
+    ④ that’s great/good/happy news: 好消息，真是个好消息
+    ⑤ bonus ['bonəs]：奖金，红利，津贴
+    ⑥ make sb后面的三种形式：
+    make sb.+ adj.： 让某人adj=make sb.done，如make you surprised让你吃惊
+    make sb. + n. 让某人做n. 如make Jim monitor让吉姆做班长
+    还有就是make sb. do sth，如make me feel bad
+    ⑦ ...doing well financially表示“财务状况（很）好”，do well： 做得好，进展好， financially [faɪ'nænʃəli]：财政的，财务的，金融的。这种表达大家记住就行了。
+    ⑧ celebrate over：以（做）……来庆祝→表示一种“方式”，如文中celebrate over drinks：喝酒庆祝
+```
+## New CEO - (新上任的CEO)
+
+```
+Olivia：Have you met the company’s new CEO?
+你见过公司新来的CEO吗？
+
+Madison: No. Have you?
+还没有，你呢？
+
+Olivia：Yes. She’s very nice.
+见过，她人很好。
+
+Madison: Really? I heard she was very mean.
+是吗？我听说她很刻薄啊。
+
+Olivia：She asked us a lot of questions about employee happiness and concerns.
+她问了我们好多关于员工的幸福感和关注点的问题。
+
+Madison: I heard if she doesn’t like what you say, she will fire you.
+我听说如果她不喜欢你说的话，就会把你开掉。
+
+笔记：
+    ① CEO（chief executive officer）：首席执行官，执行总裁； 
+    CFO（Chief Financial Officer）：首席财务官，财务总监；
+    COO（Chief Operating Officer）： 首席运营官;
+    CRO（Chief Research Officer）： 研究总监;
+    CPA（Certified Public Accoutant）：注册会计师。
+    ② mean：通常的两种用法：a.意思，意思是……，表示……的意思，如what do you mean？你什么意思；b.吝啬，刻薄，小气，卑鄙，不同语境意思不同，但就是上面那四个意思之意，如you are so mean既可以表示“你太小气了”“你太刻薄了”也可以表示“你太卑鄙了”
+    ③ employee happiness and concerns：员工的幸福感和员工关心的问题；按语法应该是employee’s happiness...但平时，尤其是口语中常省略掉’s；另有些专有名词并不是像我们想的“形容词修饰名词”，如nature reserve，不能用natural，虽然查字典可能会有natural但是用natural是不对也不行的，这些词大家要特别注意，多看多留心官方说法，而不是一味的查字典。
+```
