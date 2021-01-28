@@ -258,11 +258,54 @@ Madison: I heard if she doesn’t like what you say, she will fire you.
 我听说如果她不喜欢你说的话，就会把你开掉。
 
 笔记：
-    ① CEO（chief executive officer）：首席执行官，执行总裁； 
+    ① CTO CEO CFO COO CRO CPA：
+    CTO（chief technology officer）：首席技术官首席技术官;
+    CEO（chief executive officer）：首席执行官，执行总裁； 
     CFO（Chief Financial Officer）：首席财务官，财务总监；
     COO（Chief Operating Officer）： 首席运营官;
     CRO（Chief Research Officer）： 研究总监;
     CPA（Certified Public Accoutant）：注册会计师。
     ② mean：通常的两种用法：a.意思，意思是……，表示……的意思，如what do you mean？你什么意思；b.吝啬，刻薄，小气，卑鄙，不同语境意思不同，但就是上面那四个意思之意，如you are so mean既可以表示“你太小气了”“你太刻薄了”也可以表示“你太卑鄙了”
     ③ employee happiness and concerns：员工的幸福感和员工关心的问题；按语法应该是employee’s happiness...但平时，尤其是口语中常省略掉’s；另有些专有名词并不是像我们想的“形容词修饰名词”，如nature reserve，不能用natural，虽然查字典可能会有natural但是用natural是不对也不行的，这些词大家要特别注意，多看多留心官方说法，而不是一味的查字典。
+```
+## New CTO - (新CTO)
+
+```
+Gloria is stressed out. 
+歌洛莉亚压力太大了。
+
+why?
+为什么?
+
+The new CTO is visiting our office.
+新的首席技术官要来我们办公室参观。
+
+So what's the big deal?
+这有什么大不了的?
+
+It is a big deal to Gloria. She's one of the managers.
+这对歌洛莉亚来说很重要,她是经理之一。
+
+Groria is a great boss.
+格洛里亚是个好老板。
+
+She wants to make a good first impression.
+她想给人留下良好的第一印象。
+
+She hasn't met the new CTO yet?
+她还没见过新的首席技术官吗?
+
+No, This will be her first time meeting him.
+不，这是她第一次见他。
+
+No wonder Gloria is nervous.
+难怪歌洛莉亚会紧张。
+
+笔记：
+    CTO（chief technology officer）：首席技术官首席技术官;
+    CEO（chief executive officer）：首席执行官，执行总裁； 
+    CFO（Chief Financial Officer）：首席财务官，财务总监；
+    COO（Chief Operating Officer）： 首席运营官;
+    CRO（Chief Research Officer）： 研究总监;
+    CPA（Certified Public Accoutant）：注册会计师。
 ```
