@@ -23,3 +23,47 @@
 |----------|--------|---------|-------|--------|-------|--------|---------|----------|
 | 形容词性 | `my`   | `your`  | `his` | `her`  | `its` | `our`  | `your`  | `their`  |
 | 名词性   | `mine` | `yours` | `his` | `hers` | `its` | `ours` | `yours` | `theirs` |
+
+> 反身代词
+
+<table>
+    <tr>
+        <th></th>
+        <th>我（们）自己</th>
+        <th>你（们）自己</th>
+        <th>他（们）自己</th>
+        <th>她（们）自己</th>
+        <th>它（们）自己</th>
+    </tr>
+    <tr>
+        <td>单数</td>
+        <td>myself</td>
+        <td>yourself</td>
+        <td>himself</td>
+        <td>herself</td>
+        <td>itself</td>
+    </tr>
+    <tr>
+        <td>复数</td>
+        <td>ourselves</td>
+        <td>yourselves</td>
+        <td colspan="3">themselves</td>
+    </tr>
+</table>
+
+> 指示代词
+
+|      | 这（这些） | 那（那些） |
+|------|------------|------------|
+| 单数 | `this`     | `that`     |
+| 复数 | `these`    | `those`    |
+
+> 不定代词
+
+| every        | no        | some        | any        |
+|--------------|-----------|-------------|------------|
+| `everyone`   | `no one`  | `someone`   | `anyone`   |
+| `everybody`  | `nobody`  | `somebody`  | `anybody`  |
+| `everything` | `nothing` | `something` | `anything` |
+| `everywhere` | `nowhere` | `somewhere` | `anywhere` |
+

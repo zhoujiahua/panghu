@@ -4,8 +4,8 @@
   - [Grammar](grammar.md)
   - [900](900.md)
 
-- Business English
+- Notebook English
 
-  - [Unit 1](quickstart.md)
+  - [Diary](diary.md)
   - [Unit 2](quickstart.md)
   - [Unit 3](quickstart.md)
