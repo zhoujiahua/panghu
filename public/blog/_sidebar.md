@@ -1,3 +1,7 @@
+- 专业术语
+
+  - [专业术语](phrase.md)
+
 - 工具
 
   - [VS Studio](vsstudio.md)
