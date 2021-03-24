@@ -9,8 +9,13 @@
 https://git-scm.com/
 ```
 
-![image-20210120123216184](https://i.loli.net/2021/01/20/Vq56osiZRK97WYS.png)
+# 参考文档
 
+[https://blog.zengrong.net/post/delete_git_remote_brahch/](https://blog.zengrong.net/post/delete_git_remote_brahch/)
+
+[https://www.liaoxuefeng.com/wiki/896043488029600](https://www.liaoxuefeng.com/wiki/896043488029600)
+
+[http://www.ruanyifeng.com/blog/2014/06/git_remote.html](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
 
 # Git 操作
 
