@@ -25,6 +25,7 @@
 | **无名军师导航** | https://wumingjunshi.top  |      |
 | **小呆导航**     | https://webjike.com       |      |
 | **毒导航**       | https://www.toxic.ltd     |      |
+| **万维社区**     | https://wanweiku.com      |      |
 
 ## Markdown工具
 
