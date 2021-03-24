@@ -1,4 +1,5 @@
 - [首页](/)
-- [资源推荐](/software/)
-- [技术博客](/blog/)
-- [英语学习](/english/)
+- [Python](/Article/)
+- [技术博客](/Blog/)
+- [资源推荐](/Software/)
+- [英语学习](/English/)
