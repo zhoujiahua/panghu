@@ -1,4 +1,4 @@
-# Git 使用
+## Git 使用
 
 [Downloading Git](https://git-scm.com/)
 
@@ -8,8 +8,7 @@
 ----------------------------------------
 https://git-scm.com/
 ```
-
-# 参考文档
+## 参考文档
 
 [https://blog.zengrong.net/post/delete_git_remote_brahch/](https://blog.zengrong.net/post/delete_git_remote_brahch/)
 
@@ -17,7 +16,7 @@ https://git-scm.com/
 
 [http://www.ruanyifeng.com/blog/2014/06/git_remote.html](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
 
-# Git 操作
+## Git 操作
 
 ```sh
 删除远程分支和tag
@@ -67,7 +66,7 @@ $ git remote show origin
 git fetch -p
 ```
 
-# Git 总结
+## Git 总结
 
 ```sh
 同步本地版本库命令
