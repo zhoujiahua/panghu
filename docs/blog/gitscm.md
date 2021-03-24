@@ -61,3 +61,21 @@ $ git remote show origin
 
 git fetch -p
 ```
+
+# Git 总结
+
+```sh
+同步本地版本库命令
+git remote update origin --prune
+or
+git pull -p
+
+使用下面的代码查看分支的状态
+git remote show origin
+
+可以将其从本地版本库中去除
+git remote prune origin 
+
+它在fetch之后删除掉没有与远程分支对应的本地分支
+git fetch -p
+```
