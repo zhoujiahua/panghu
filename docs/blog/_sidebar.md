@@ -4,6 +4,7 @@
 
 - 工具
 
+  - [PC Tools](pc.md)
   - [VS Studio](vsstudio.md)
   - [VS Code](vscode.md)
   - [Git](gitscm.md)

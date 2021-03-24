@@ -1,7 +1,5 @@
 ## 依赖注入
 
-<img src="C:\Users\jerry.zhou\Desktop\1-Dependency-injection.jpeg" alt="1-Dependency-injection" style="zoom:50%;" />
-
 > 高内聚低耦合
 
 架构整洁之道
@@ -14,7 +12,7 @@
 
 3.代码拆分
 
-```javascript
+```html
 用抽象构建架构，用实现扩展细节。
 单一职责原则：实现类要职责单一；
 接口隔离原则：在设计接口的时候要精简单一；
