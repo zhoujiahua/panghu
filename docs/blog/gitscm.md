@@ -66,6 +66,144 @@ $ git remote show origin
 git fetch -p
 ```
 
+## Git脚本
+
+> 1.0 版本
+
+```sh
+#!/bin/bash
+if [ ! -n "$1" ]; then
+  echo "请输入提交信息"
+  exit
+else
+  msg="$1"
+fi
+ 
+echo $msg
+ 
+function echoMsg() {
+  echo -e "\n$1:"
+  checkCommand "$1"
+}
+ 
+function checkCommand() {
+    if ! $1; then echo -e "\n$1: failed !!!"; exit 1; fi
+}
+ 
+echoMsg "git pull"
+echoMsg "git status"
+echoMsg "git checkout V3-014-dev"
+echoMsg "git pull"
+echoMsg "git add application/"
+echoMsg "git status"
+echoMsg "git commit -m $msg"
+echoMsg "git push origin V3-014-dev"
+echoMsg "git checkout develop"
+echoMsg "git pull"
+echoMsg "git merge origin V3-014-dev"
+echoMsg "git push origin develop"
+echoMsg "git status"
+```
+
+> 2.0版本
+
+```sh
+#!/bin/bash
+if [ ! -n "$1" ]; then
+  echo "请输入提交信息"
+  exit
+else
+  msg="$1"
+fi
+ 
+echo $msg
+ 
+function echoMsg() {
+  echo -e "\n$1:"
+}
+echoMsg "git pull"
+git pull
+echoMsg "git status"
+git status
+ 
+echoMsg "git checkout V3-009-dev"
+git checkout V3-009-dev
+ 
+echoMsg "git pull"
+git pull
+ 
+echoMsg "git status"
+git status
+ 
+echoMsg "git add application/"
+git add application/
+ 
+echoMsg "git commit -m $msg"
+git commit -m "$msg"
+ 
+echoMsg "git push origin V3-009-dev"
+git push origin V3-009-dev
+ 
+echoMsg "git checkout develop"
+git checkout develop
+ 
+echoMsg "git pull"
+git pull
+ 
+echoMsg "git merge origin V3-009-dev"
+git merge origin V3-009-dev
+ 
+echoMsg "git push origin develop"
+git push origin develop
+ 
+echoMsg "git status"
+git status
+```
+
+## 自动提交
+
+> push.sh
+
+```sh
+
+if [ ! -n "$1" ]; 
+then
+    msg="msg"
+else
+    msg="$1"
+fi
+ 
+git add application/  
+git commit -m '$msg'  
+git push origin jerry  
+git checkout master
+git pull  
+git checkout jerry  
+git merge origin master 
+git checkout master
+git merge origin jerry  
+git push origin master
+git checkout jerry  
+git push origin jerry  
+git status
+```
+
+> 调用方式
+
+`./push.sh 提交注释`
+
+> 如果 push.sh文件放在项目上层则，则调用方法为 
+
+`../push.sh`
+
+> PS
+
+```html
+msg为提交注释信息， jerry 为你自己的分支，master为主分支
+要注意msg 变量赋值的时候两边不要有空格
+git 命令如果要写在一行的话 可以用&&连接
+```
+
 ## Git 总结
 
 ```sh
