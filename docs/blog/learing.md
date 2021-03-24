@@ -1,6 +1,6 @@
 ## 依赖注入
 
-![1-Dependency-injection](C:\Users\jerry.zhou\Desktop\1-Dependency-injection.jpeg)
+<img src="C:\Users\jerry.zhou\Desktop\1-Dependency-injection.jpeg" alt="1-Dependency-injection" style="zoom:50%;" />
 
 > 高内聚低耦合
 
@@ -14,5 +14,13 @@
 
 3.代码拆分
 
-
-
+```javascript
+用抽象构建架构，用实现扩展细节。
+单一职责原则：实现类要职责单一；
+接口隔离原则：在设计接口的时候要精简单一；
+依赖倒转原则：面向接口编程；
+里氏替换原则：不要破坏继承关系；
+开闭原则原则：对扩展开发，对修改关闭；
+迪米特法则：最少知道原则；
+合成复用原则：先考虑组合或聚合，后考虑继承；
+```
