@@ -8,14 +8,6 @@
 ----------------------------------------
 https://git-scm.com/
 ```
-## 参考文档
-
-[https://blog.zengrong.net/post/delete_git_remote_brahch/](https://blog.zengrong.net/post/delete_git_remote_brahch/)
-
-[https://www.liaoxuefeng.com/wiki/896043488029600](https://www.liaoxuefeng.com/wiki/896043488029600)
-
-[http://www.ruanyifeng.com/blog/2014/06/git_remote.html](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
-
 ## Git 操作
 
 ```sh
@@ -66,7 +58,7 @@ $ git remote show origin
 git fetch -p
 ```
 
-## Git脚本
+## Git 脚本
 
 > 1.0 版本
 
@@ -159,13 +151,11 @@ git push origin develop
 echoMsg "git status"
 git status
 ```
-
 ## 自动提交
 
 > push.sh
 
 ```sh
-
 if [ ! -n "$1" ]; 
 then
     msg="msg"
@@ -221,3 +211,11 @@ git remote prune origin
 它在fetch之后删除掉没有与远程分支对应的本地分支
 git fetch -p
 ```
+
+## 参考文档
+
+[https://blog.zengrong.net/post/delete_git_remote_brahch/](https://blog.zengrong.net/post/delete_git_remote_brahch/)
+
+[https://www.liaoxuefeng.com/wiki/896043488029600](https://www.liaoxuefeng.com/wiki/896043488029600)
+
+[http://www.ruanyifeng.com/blog/2014/06/git_remote.html](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
