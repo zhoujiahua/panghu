@@ -1,7 +1,7 @@
-![logo](./images/ph.png)
+![logo](./Static/images/ph.png)
 
 # 胖虎
 
 ## Just see see.
 
-Welcome to my personal website...
+Good good study, day day up.

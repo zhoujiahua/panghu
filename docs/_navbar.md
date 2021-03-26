@@ -1,5 +1,6 @@
 - [首页](/)
-- [Python](/Article/)
+- [Python](/Python/)
+- [Linux](/Linux/)
 - [技术博客](/Blog/)
 - [资源推荐](/Software/)
 - [英语学习](/English/)
