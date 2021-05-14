@@ -7,3 +7,4 @@
 
   - [Shell](shell.md)
   - [VNC](vnc.md)
+  - [Docker](docker.md)
