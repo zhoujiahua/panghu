@@ -118,3 +118,7 @@ docker ps -a
 ```sh
 docker commit -m="备注" 你的CONTAINER_ID 你的IMAGE
 ```
+
+## 3.参考文档
+
+[https://docs.docker.com/engine/install/centos/](https://docs.docker.com/engine/install/centos/)
