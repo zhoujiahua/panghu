@@ -5,5 +5,5 @@
 - OpenStack Platform
 
   - [Keystone](/Cloud/OpenStack/Keystone.md)
-  - [Nova](/Cloud/openstack/Nova.md)
+  - [Nova](/Cloud/OpenStack/Nova.md)
  
