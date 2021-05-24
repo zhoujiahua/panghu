@@ -1,0 +1,124 @@
+# 搭建 Docker 环境
+
+## 1.安装与配置 Docker
+
+> 安装 Docker
+
+首先安装 Docker 必要依赖包
+
+```sh 
+yum install -y yum-utils device-mapper-persistent-data lvm2
+```
+
+由于自带 yum 没有 Docker-CE 所以我们需要先增加 docker repo
+
+```sh
+yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+```
+
+用 yum 安装 Docker
+
+```sh
+yum install -y docker-ce
+
+```
+
+直接yum安装，安装成功后查看版本
+
+```sh
+docker -v
+```
+
+启动docker
+
+```sh
+service docker start
+```
+
+设置开机启动
+
+```sh
+chkconfig docker on
+```
+
+> 配置 Docker
+
+因为国内访问 Docker Hub 较慢, 可以使用腾讯云提供的国内镜像源, 加速访问 Docker Hub
+
+依次执行以下命令
+
+```sh
+echo "OPTIONS='--registry-mirror=https://mirror.ccs.tencentyun.com'" >> /etc/sysconfig/docker
+
+systemctl daemon-reload
+
+service docker restart
+```
+
+## 2.Docker 的简单操作
+
+> 下载镜像
+
+下载一个官方的 CentOS 镜像到本地
+
+```sh
+docker pull centos
+```
+
+下载好的镜像就会出现在镜像列表里
+
+```sh
+docker images
+```
+
+> 运行容器
+
+这时我们可以在刚才下载的 CentOS 镜像生成的容器内操作了。
+生成一个 centos 镜像为模板的容器并使用 bash shell
+
+```sh
+docker run -it centos /bin/bash
+```
+
+这个时候可以看到命令行的前端已经变成了 [root@(一串 hash Id)] 的形式, 这说明我们已经成功进入了 CentOS 容器。
+在容器内执行任意命令, 不会影响到宿主机, 如下
+
+```sh
+mkdir -p /data/simple_docker
+```
+
+可以看到 /data 目录下已经创建成功了 simple_docker 文件夹
+
+```sh
+ls /data
+```
+
+退出容器
+
+```sh
+exit
+```
+
+查看宿主机的 /data 目录, 并没有 simple_docker 文件夹, 说明容器内的操作不会影响到宿主机
+
+```sh
+ls /data
+```
+
+> 保存容器
+
+查看所有的容器信息， 能获取容器的id
+
+```sh
+docker ps -a
+```
+
+然后执行如下命令，保存镜像
+
+```sh
+docker commit -m="备注" 你的CONTAINER_ID 你的IMAGE
+```
+
+## 3.参考文档
+
+[https://docs.docker.com/engine/install/centos/](https://docs.docker.com/engine/install/centos/)
