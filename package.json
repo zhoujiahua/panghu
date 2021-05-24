@@ -1,15 +1,10 @@
 {
   "name": "panghu",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
-  "scripts": {
-    "start": "node ./app.js",
-    "bat": "./shell/run.bat",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "jerry",
-  "license": "ISC",
+  "repository": "git@github.com:zhoujiahua/panghu.git",
+  "author": "jerryZhou <jerry.zhou@ptn.advantest.com>",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
   }
