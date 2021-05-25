@@ -47,7 +47,7 @@ yum clean all
 # 生成缓存
 yum makecache 
 
-# 跟新yum
+# 更新yum
 yum update
 ```
 
@@ -93,7 +93,7 @@ yum clean all
 # 生成缓存
 yum makecache 
 
-# 跟新yum
+# 更新yum
 yum update
 
 # yum list
