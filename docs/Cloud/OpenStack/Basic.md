@@ -124,8 +124,27 @@ yum rinstall mariadb mariadb-server python2-PyMySQL -y
 
 > Keystone配置文件
 
-```
+```shell
 # 去除空行和注释
 grep -Ev '^$|#' /etc/keystone/keystone.conf | wc -l
+
+cp /etc/keystone/keystone.conf /etc/keystone/keystone.conf.back
+grep -Ev '^$|#' /etc/keystone/keystone.conf.back > /etc/keystone/keystone.conf
+
+md5sum /etc/keystone/keystone.conf
+
+# 自动修改配置文件工具
+yum install openstack-utils -y
+
+openstack-config --set /etc/keystone/keystone.conf DEFAULT admin_token ADMIN_TOKEN
+
+# 查看keystone用户下的表
+mysql keystone -e 'show tables;'
+su -s /bin/sh -c 'keystone-manage db_sync' keystone
+
+env|grep OS
+unset OS_TOKEN # 取消TOKEN
+source admin-openrc
+openstack token issue
 ```
 
