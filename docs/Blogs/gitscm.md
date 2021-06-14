@@ -15,7 +15,7 @@ https://git-scm.com/
 
 在Git v1.7.0 之后，可以使用这种语法删除远程分支：
 
-$ git push origin --delete <branchName>
+git push origin --delete <branchName>
 删除tag这么用：
 
 git push origin --delete tag <tagname>
@@ -39,7 +39,7 @@ git push origin :refs/tags/<tagname>
 其他人再次执行fetch或者pull并不会删除这个他们本地的 b1 分支，运行 git branch -a 也不能看出这个branch被删除了，如何处理？
 使用下面的代码查看b1的状态：
 
-$ git remote show origin
+git remote show origin
 * remote origin
   Fetch URL: git@github.com:xxx/xxx.git
   Push  URL: git@github.com:xxx/xxx.git
@@ -251,13 +251,13 @@ b. 一个github，用于自己进行一些开发活动；
 1. 生成一个公司用的SSH-Key
 
 ```shell
-$ ssh-keygen -t rsa -C 'xxxxx@company.com' -f ~/.ssh/gitee_id_rsa
+ssh-keygen -t rsa -C 'xxxxx@company.com' -f ~/.ssh/gitee_id_rsa
 ```
 
 1. 生成一个github用的SSH-Key
 
 ```shell
-$ ssh-keygen -t rsa -C 'xxxxx@qq.com' -f ~/.ssh/github_id_rsa
+ssh-keygen -t rsa -C 'xxxxx@qq.com' -f ~/.ssh/github_id_rsa
 ```
 
 1. 在 ~/.ssh 目录下新建一个config文件，添加如下内容（其中Host和HostName填写git服务器的域名，IdentityFile指定私钥的路径）
@@ -278,8 +278,8 @@ IdentityFile ~/.ssh/github_id_rsa
 4.用ssh命令分别测试
 
 ```shell
-$ ssh -T git@gitee.com
-$ ssh -T git@github.com
+ssh -T git@gitee.com
+ssh -T git@github.com
 ```
 
 这里以gitee为例，成功的话会返回下图内容
