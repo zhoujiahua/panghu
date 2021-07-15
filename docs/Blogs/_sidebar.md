@@ -25,15 +25,12 @@
   - [PS](ps.md)
   - [Chrome](chrome.md)
 
-- 服务端（.NET/C#）
+- 服务端
 
-  - [C#基础](c1.md)
-  - [C#高级](c2.md)
+  - [Python](python.md)
   - [OOP](oop.md)
-  - [ASP.NET MVC](asp.net.mvc.md)
-  - [IIS](iis.md)
   - [Nginx](nginx.md)
-
+  
 - 测试运维
 
   - [单元测试](ut.md)
