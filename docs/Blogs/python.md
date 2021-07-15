@@ -1,15 +1,14 @@
-## 技术博客
-
+## Python 技术点
 ### Python 源
 
-> 官方镜像
+> 官方源
 
 ```shell
 # 官方
 https://pypi.python.org/simple 
 ```
 
-> 国内镜像
+> 国内源
 
 ```shell
 # 豆瓣
