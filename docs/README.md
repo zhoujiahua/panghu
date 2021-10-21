@@ -38,6 +38,11 @@
 | **顾斯比**               | http://blog.gusibi.site            |      |
 | **林子空间**             | https://www.bylinzi.com            |      |
 | **Codepen**              | https://codepen.io                 |      |
+| **趣搜**                 | https://qusou.org                   |      |
+| **Layui 文档**            | https://layui.net                  |      |
+
+## 趣搜
+[https://qusou.org](https://qusou.org)
 
 ## Markdown工具
 
