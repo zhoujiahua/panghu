@@ -2,6 +2,6 @@
 - [Linux](/Linux/)
 - [Cloud](/Cloud/)
 - [Python](/Python/)
+- [Tools](/Tools/)
 - [English](/English/)
 - [Blogs](/Blogs/)
-- [Resource](/Resource/)

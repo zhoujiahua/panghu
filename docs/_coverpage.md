@@ -4,4 +4,4 @@
 
 ## Just see see.
 
-Good good study, day day up.
+Soon learn, soon forgotten.

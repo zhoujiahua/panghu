@@ -131,6 +131,3 @@ nr = a.replace('python','go')
 print(r)
 print(nr)
 ```
-
-
-
