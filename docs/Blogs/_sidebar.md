@@ -8,6 +8,7 @@
   - [PC Tools](pc.md)
   - [VS Studio](vsstudio.md)
   - [VS Code](vscode.md)
+  - [GitHub](github.md)
   - [Git](gitscm.md)
 
 - 面试
