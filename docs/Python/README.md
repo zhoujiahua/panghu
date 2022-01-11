@@ -36,7 +36,7 @@
 
 * **The Hitchhiker’s Guide to Python**
 
-     传送门：[官方地址](http://docs.python-guide.org/en/latest/)
+    传送门：[官方地址](http://docs.python-guide.org/en/latest/)
 
 ## Python参考网站
 
