@@ -1,5 +1,10 @@
 ## Python 博客网站资源
 
+```shell
+#!/usr/bin/env python3
+# -*-coding: UTF-8 -*-
+```
+
 * **本人编写的 Python 系列文章**
 
     本草根编写的 Python 文章，里面有各种例子代码
