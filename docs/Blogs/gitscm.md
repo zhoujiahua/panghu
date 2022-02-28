@@ -194,6 +194,16 @@ msg为提交注释信息， jerry 为你自己的分支，master为主分支
 git 命令如果要写在一行的话 可以用&&连接
 ```
 
+### ssh-keygen命令参数理解
+
+```shell
+ssh-keygen -t rsa -b 4096 -C “xx@qq.com” 
+
+ssh-keygen -m PEM -t rsa -b 4096
+```
+
+-t 是生成[密钥](https://so.csdn.net/so/search?q=密钥&spm=1001.2101.3001.7020)的类型，-b是指定密钥长度，-C是关于密钥的一个注解，-o是强制要求密钥生成时必须输入密码的参数，-m是指定密钥格式（比如：RSA 和PEM）。
+
 ### 生成/添加SSH公钥
 
 Git服务，在使用SSH协议访问仓库仓库之前，需要先配置好账户/仓库的SSH公钥。
