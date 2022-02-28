@@ -197,9 +197,16 @@ git 命令如果要写在一行的话 可以用&&连接
 ### ssh-keygen命令参数理解
 
 ```shell
-ssh-keygen -t rsa -b 4096 -C “xx@qq.com” 
+ssh-keygen -t rsa -b 4096 -C "jiahuasir@163.com" 
+ssh-keygen -m PEM -t rsa -b 4096 -C "jerry.zhou"
+```
 
-ssh-keygen -m PEM -t rsa -b 4096
+```shell
+# 1.转换成PEM格式私钥
+ssh-keygen -p -m PEM -f 私钥路径
+
+# 2.生成PEM格式的私钥（生成时增加 -m PEM参数）
+ssh-keygen -m PEM -t rsa -C "注释"
 ```
 
 -t 是生成[密钥](https://so.csdn.net/so/search?q=密钥&spm=1001.2101.3001.7020)的类型，-b是指定密钥长度，-C是关于密钥的一个注解，-o是强制要求密钥生成时必须输入密码的参数，-m是指定密钥格式（比如：RSA 和PEM）。
