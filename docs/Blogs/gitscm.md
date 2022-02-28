@@ -203,7 +203,7 @@ ssh-keygen -m PEM -t rsa -b 4096 -C "jerry.zhou"
 
 ```shell
 # 1.转换成PEM格式私钥
-ssh-keygen -p -m PEM -f 私钥路径
+ssh-keygen -p -m PEM -f "私钥路径"
 
 # 2.生成PEM格式的私钥（生成时增加 -m PEM参数）
 ssh-keygen -m PEM -t rsa -C "注释"
