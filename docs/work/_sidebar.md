@@ -2,6 +2,9 @@
 
   - [专业术语](phrase.md)
 
+- 工作
+  - [Jira](jira.md)
+
 - 工具
 
   - [PicGo](PicGo.md)
